@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyNewApp.MainPage">
+
+    <StackLayout>
+        <Label x:Name="lblText" Text="Hello" FontSize="35" TextColor="Plum" HorizontalTextAlignment="Center" />
+        <Button x:Name="btnUp" Text="Up" FontSize="Medium" BorderColor="Chocolate"  BackgroundColor="Blue" Clicked="BtnUp_Clicked" />
+        <Image x:Name="imgCurr"  HeightRequest="350"  />
+        <Button x:Name="btnDown" Text="Down" IsEnabled="False" FontSize="Medium" BorderColor="Chocolate"  BackgroundColor="DimGray" Clicked="BtnDown_Clicked"  />
+    </StackLayout>
+
+</ContentPage>
+                                                                                           
