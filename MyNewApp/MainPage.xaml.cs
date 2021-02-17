@@ -10,14 +10,15 @@ namespace MyNewApp
 {
     public partial class MainPage : ContentPage
     {
-        int pos =0;
-        List<string> ls = new List<string>();
-        string imgDefault= "https://scontent.fsdv1-2.fna.fbcdn.net/v/t1.0-0/s526x395/12189549_1677535729157321_8663535178654075247_n.jpg?_nc_cat=100&ccb=3&_nc_sid=09cbfe&_nc_ohc=vvB4Q45ILd8AX8PfdC_&_nc_ht=scontent.fsdv1-2.fna&tp=7&oh=465d7d32b12e389f04bea59ddb80bf9c&oe=605247C5";
+       private int pos;
+        private List<string> ls;
+        private string imgDefault;
 
         public MainPage()
         {
             InitializeComponent();
-           
+            ls = new List<string>();
+            imgDefault = "https://scontent.fsdv1-2.fna.fbcdn.net/v/t1.0-0/s526x395/12189549_1677535729157321_8663535178654075247_n.jpg?_nc_cat=100&ccb=3&_nc_sid=09cbfe&_nc_ohc=vvB4Q45ILd8AX8PfdC_&_nc_ht=scontent.fsdv1-2.fna&tp=7&oh=465d7d32b12e389f04bea59ddb80bf9c&oe=605247C5";
             imgCurr.Source = imgDefault;
 
             //usually the image sources will be loaded from the Database....
